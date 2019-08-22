@@ -1,0 +1,16 @@
+{
+  "name": "calculate-package-files",
+  "version": "0.0.1",
+  "description": "CLI to generate combined lock files",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@yarnpkg/lockfile": "^1.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}
